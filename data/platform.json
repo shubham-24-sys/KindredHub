@@ -1,0 +1,204 @@
+{
+  "accounts": [
+    {
+      "id": "acc-admin",
+      "name": "KindredHub Admin",
+      "email": "admin@kindredhub.org",
+      "password": "Admin@123",
+      "role": "admin",
+      "createdAt": 1780569362378
+    },
+    {
+      "id": "acc-ngo-hh",
+      "name": "Helping Hands Foundation",
+      "email": "ngo@helpinghands.org",
+      "password": "Ngo@12345",
+      "role": "ngo",
+      "ngoId": "helping-hands",
+      "createdAt": 1783161362378
+    },
+    {
+      "id": "acc-d1",
+      "name": "Aditya Kharat",
+      "email": "aditya@example.com",
+      "password": "Donor@123",
+      "role": "donor",
+      "createdAt": 1787049362378
+    }
+  ],
+  "ngos": [
+    {
+      "id": "helping-hands",
+      "name": "Helping Hands Foundation",
+      "cause": "education",
+      "causeLabel": "Education",
+      "location": "Dharavi, Mumbai",
+      "city": "mumbai",
+      "cityLabel": "Mumbai",
+      "verified": true,
+      "avatar": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=400&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1200&q=80",
+      "liveActivity": "Active Field Session in Dharavi",
+      "description": "Empowering underserved children through digital literacy, learning kits, and mentor-led study groups.",
+      "impactMetrics": {
+        "primaryNumber": "1.2K+",
+        "primaryLabel": "Impacted",
+        "storiesCount": 24,
+        "extraNumber": "8",
+        "extraLabel": "Centers"
+      },
+      "gps": "19.0402° N, 72.8567° E",
+      "officerSigned": true,
+      "weeklyMilestone": "120 students impacted this week in the local learning center.",
+      "distanceKm": 4,
+      "fcraNumber": "FCRA-083720198",
+      "section80G": true,
+      "foundedYear": 2018,
+      "disbursedAmount": "₹6,40,000",
+      "activeVolunteers": 64
+    },
+    {
+      "id": "paws-and-care",
+      "name": "Paws & Care",
+      "cause": "animal welfare",
+      "causeLabel": "Animal Welfare",
+      "location": "Baner & Wakad, Pune",
+      "city": "pune",
+      "cityLabel": "Pune",
+      "verified": true,
+      "avatar": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=400&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=1200&q=80",
+      "liveActivity": "Mobile Ambulance on Duty",
+      "description": "Operating mobile veterinary clinics and providing 24/7 rescue and rehabilitation for stray animals.",
+      "impactMetrics": {
+        "primaryNumber": "850+",
+        "primaryLabel": "Rescued",
+        "storiesCount": 18,
+        "extraNumber": "4",
+        "extraLabel": "Shelters"
+      },
+      "gps": "18.5204° N, 73.8567° E",
+      "officerSigned": true,
+      "weeklyMilestone": "85 rescued strays received clinical care, deworming, and bedding.",
+      "distanceKm": 148,
+      "fcraNumber": "FCRA-092471822",
+      "section80G": true,
+      "foundedYear": 2019,
+      "disbursedAmount": "₹4,12,000",
+      "activeVolunteers": 42
+    },
+    {
+      "id": "sahyog-trust",
+      "name": "Sahyog Community Trust",
+      "cause": "community development",
+      "causeLabel": "Community Development",
+      "location": "Kothrud, Pune",
+      "city": "pune",
+      "cityLabel": "Pune",
+      "verified": false,
+      "avatar": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=400&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
+      "liveActivity": "Awaiting verification",
+      "description": "Women-led self-help groups and micro-enterprise training for slum communities in Pune.",
+      "impactMetrics": {
+        "primaryNumber": "0",
+        "primaryLabel": "Impacted",
+        "storiesCount": 0,
+        "extraNumber": "1",
+        "extraLabel": "Centers"
+      },
+      "gps": "18.5074° N, 73.8077° E",
+      "officerSigned": false,
+      "weeklyMilestone": "",
+      "fcraNumber": "",
+      "section80G": false,
+      "foundedYear": 2022,
+      "disbursedAmount": "₹0",
+      "activeVolunteers": 0
+    }
+  ],
+  "posts": [
+    {
+      "id": "story-seed-hh",
+      "ngoId": "helping-hands",
+      "ngoName": "Helping Hands Foundation",
+      "ngoAvatar": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=400&q=80",
+      "cause": "Education",
+      "location": "Dharavi, Mumbai",
+      "timeAgo": "6 days ago",
+      "headline": "Evening study circles reopen in Dharavi",
+      "subheadline": "After a two-month break for monsoon repairs, our evening study circles are back.",
+      "badgeText": "Verified",
+      "badgeType": "auditor",
+      "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1200&q=80",
+      "gpsBadge": "19.0402° N, 72.8567° E",
+      "content": "40 children joined on day one, using the new solar lamps donated last quarter.",
+      "hashtags": [
+        "#StudyCircles",
+        "#Dharavi"
+      ],
+      "proofHash": "0x8d4f7a1c",
+      "likes": 168,
+      "commentsCount": 12,
+      "comments": [
+        {
+          "author": "Priya",
+          "text": "Amazing work!",
+          "timeAgo": "2h ago"
+        }
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "id": "cert-001",
+      "hash": "0x8e41f9bd",
+      "ngoName": "Helping Hands Foundation",
+      "donorName": "Aditya Kharat",
+      "cause": "Education",
+      "itemDescription": "Digital learning kits for 40 students",
+      "amount": "₹4,500",
+      "timestamp": "2026-10-02T10:36:02.378Z",
+      "gpsCoordinates": "19.0402° N, 72.8567° E",
+      "status": "Verified on Public Ledger",
+      "auditorName": "Ananya Kulkarni",
+      "blockNumber": "#238901"
+    }
+  ],
+  "donations": [
+    {
+      "id": "don-001",
+      "ngoId": "helping-hands",
+      "ngoName": "Helping Hands Foundation",
+      "donorName": "Aditya Kharat",
+      "amount": 4500,
+      "currency": "INR",
+      "note": "Digital learning kits",
+      "cause": "Education",
+      "status": "Verified on Public Ledger",
+      "createdAt": 1790764562379
+    }
+  ],
+  "docs": [
+    {
+      "id": "doc-helping-hands-registration-certificate",
+      "ngoId": "helping-hands",
+      "type": "Registration Certificate",
+      "fileName": "registration_certificate.pdf",
+      "fileSize": 180000,
+      "status": "verified",
+      "uploadedAt": 1788345362379,
+      "reviewedAt": 1789209362379,
+      "reviewNote": "Approved"
+    },
+    {
+      "id": "doc-sahyog-trust-registration-certificate",
+      "ngoId": "sahyog-trust",
+      "type": "Registration Certificate",
+      "fileName": "registration_certificate.pdf",
+      "fileSize": 170000,
+      "status": "pending",
+      "uploadedAt": 1790678162379
+    }
+  ]
+}

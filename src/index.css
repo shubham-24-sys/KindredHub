@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #f7faf6;
+  --color-surface-dim: #d8dbd7;
+  --color-surface-bright: #f7faf6;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f1f4f1;
+  --color-surface-container: #ecefeb;
+  --color-surface-container-high: #e6e9e5;
+  --color-surface-container-highest: #e0e3e0;
+  --color-surface-variant: #e0e3e0;
+  --color-surface-tint: #006d30;
+  --color-on-surface: #181c1a;
+  --color-on-surface-variant: #3f493f;
+  --color-inverse-surface: #2d312f;
+  --color-inverse-on-surface: #eef1ee;
+  --color-outline: #6f7a6e;
+  --color-outline-variant: #becabc;
+  
+  --color-primary: #00652c;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #15803d;
+  --color-on-primary-container: #d3ffd5;
+  --color-primary-fixed: #95f8a7;
+  --color-primary-fixed-dim: #79db8d;
+  --color-on-primary-fixed: #00210a;
+  --color-on-primary-fixed-variant: #005323;
+  --color-inverse-primary: #79db8d;
+
+  --color-secondary: #ac3400;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #fd6b36;
+  --color-on-secondary-container: #5d1900;
+  --color-secondary-fixed: #ffdbd0;
+  --color-secondary-fixed-dim: #ffb59d;
+  --color-on-secondary-fixed: #390c00;
+  --color-on-secondary-fixed-variant: #832600;
+
+  --color-tertiary: #006443;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #007f57;
+  --color-on-tertiary-container: #ccffe2;
+  --color-tertiary-fixed: #6ffbbe;
+  --color-tertiary-fixed-dim: #4edea3;
+  --color-on-tertiary-fixed: #002113;
+  --color-on-tertiary-fixed-variant: #005236;
+
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+  --color-background: #f7faf6;
+  --color-on-background: #181c1a;
+
+  --font-display-hero: 'Plus Jakarta Sans', sans-serif;
+  --font-headline-lg: 'Plus Jakarta Sans', sans-serif;
+  --font-headline-md: 'Plus Jakarta Sans', sans-serif;
+  --font-headline-sm: 'Plus Jakarta Sans', sans-serif;
+  --font-label-md: 'Plus Jakarta Sans', sans-serif;
+  --font-label-sm: 'Plus Jakarta Sans', sans-serif;
+  --font-label-xs: 'Plus Jakarta Sans', sans-serif;
+  --font-body-lg: 'Inter', sans-serif;
+  --font-body-md: 'Inter', sans-serif;
+  --font-body-sm: 'Inter', sans-serif;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #181c1a;
+  background-color: #f7faf6;
+}
+
+h1, h2, h3, h4, h5, h6, .font-display, .font-heading {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+.material-symbols-outlined.fill-1,
+.material-symbols-outlined[data-fill="true"] {
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Custom scrollbar hide for horizontal pill bars */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

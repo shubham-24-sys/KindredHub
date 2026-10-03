@@ -1,0 +1,6 @@
+{
+  "name": "KindredHub",
+  "description": "A human-centered humanitarian network connecting verified grassroots NGOs with global donors through auditable real-time proof-of-work dispatches, spatial heatmaps, and cryptographic impact deeds.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
