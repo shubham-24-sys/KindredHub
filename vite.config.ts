@@ -8,6 +8,7 @@ const rootDir = path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig(() => {
   return {
+    base: '/KindredHub/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
